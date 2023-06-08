@@ -11,13 +11,10 @@ body {
   box-sizing: border-box;
   font-family: 'Roboto';
   color: var(--main-color);
-}
-
-/* HEADER */
-.header {
   text-decoration: none;
 }
 
+/* HEADER */
 .site-logo {
   font-family: 'Raleway';
   font-weight: 700;
@@ -58,5 +55,33 @@ body {
 .site-nav .nav-link:focus,
 .contact-list .contact-link:hover,
 .contact-list .contact-link:focus {
+  color: var(--blue-color);
+}
+
+/* FOOTER */
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-white {
+  color: var(--logo-white);
+}
+
+.adres-text {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.address-link {
+  text-decoration: inherit;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link:hover,
+.address-link:focus {
   color: var(--blue-color);
 }
