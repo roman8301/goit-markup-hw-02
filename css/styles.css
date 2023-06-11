@@ -176,9 +176,7 @@ body {
 
 /* gallary */
 
-.card-link {
-}
-.card-heading {
+.card-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
