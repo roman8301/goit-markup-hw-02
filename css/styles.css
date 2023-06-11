@@ -82,12 +82,17 @@ body {
 }
 .hero-btn {
   font-weight: 700;
-  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.hero-btn,
+.filter-btn:hover {
+  font-size: 16px;
   text-align: center;
   background-color: var(--blue-color);
-  color: inherit;
+  color: var(--white-color);
 }
 
 /* features */
@@ -159,3 +164,28 @@ body {
 }
 
 /* MAIN PORTFOLIO */
+
+/* filter */
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* gallary */
+
+.card-link {
+}
+.card-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.card-description {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--text-color);
+}
